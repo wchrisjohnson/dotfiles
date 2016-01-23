@@ -1,8 +1,0 @@
-"*":
-  "exception-reporting":
-    userId: "40590bbb-3e0e-813e-8db6-cbc2c058edde"
-  welcome:
-    showOnStartup: false
-  linter: {}
-  editor:
-    fontSize: 14

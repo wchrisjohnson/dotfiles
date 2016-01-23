@@ -1,12 +1,3 @@
-
-[hub]
-protocol = https
-
-[core]
-excludesfile = /opt/boxen/config/git/gitignore
-
-[credential]
-helper = /opt/boxen/bin/boxen-git-credential
 [user]
 	name = Chris Johnson
 	email = wchrisjohnson@gmail.com
