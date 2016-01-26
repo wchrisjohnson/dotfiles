@@ -10,14 +10,14 @@ brew upgrade
 # Install packages
 
 apps=(
+	bash
 	bash-completion2
 	bats
-    battery
-    coreutils
-    dockutil
-    erlang
-    elixir
-    ffmpeg
+	battery
+	coreutils
+	dockutil
+	erlang
+	elixir
     fasd
     gifsicle
     git
@@ -53,7 +53,7 @@ brew install "${apps[@]}"
 # https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x/
 brew install binutils
 brew install diffutils
-brew install ed --default-names
+brew install ed --with-default-names
 brew install findutils --with-default-names
 brew install gawk
 brew install gnu-indent --with-default-names
@@ -73,7 +73,6 @@ brew install git
 brew install less
 brew install openssh
 brew install rsync
-brew install svn
 brew install unzip
 
 
