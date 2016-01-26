@@ -34,7 +34,7 @@ apps=(
     ssh-copy-id
 	tmux
     tree
-    vim
+    # vim
 	zsh
 	zsh-completions
 )

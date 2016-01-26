@@ -1,4 +1,4 @@
-# brew install nvm
+brew install nvm
 
 nvm install 0.12
 nvm use 0.12
